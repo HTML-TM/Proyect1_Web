@@ -1,9 +1,11 @@
 /* FONT */
+/* FLEX NAV */
 /* NAV */
-/* IMAG */
+/* Main background */
 /* COLUMNAS CONOCENOS */
 /* TEXTO */
 /* TABLA FECHAS */
+/* Cards */
 /* FLIPCARD */
 /* FORM */
 /* FOOTER */
@@ -582,6 +584,11 @@ tr:hover {
   padding-bottom: 30px;
 }
 
+li::marker {
+  list-style: none;
+  list-style-type:none;
+}
+
 /* FORM */
 
 .container_form {
@@ -693,7 +700,6 @@ div.container {
 .parent_column .column_child{
   display:flex;
   flex-direction: row;
-  justify-content: ;
 }
 
 .margin_info {
@@ -767,6 +773,7 @@ a .enviar:link{
   .grid_container {
     display:flex;
     justify-content: space-between;
+    flex-wrap:wrap;
    }
 /*    
    .grid_item {
