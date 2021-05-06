@@ -639,13 +639,14 @@ margin-right: 10px;
 
 
 input[type=text], select, input[type=number], input[type=tel], input[type=email] {
-  width: 100%;
+  width: 99%;
   padding: 12px 20px;
   margin: 8px 0;
   display: block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  margin-right: 10px;
 }
 
 input[type=submit] {
@@ -947,14 +948,29 @@ padding:20px;
 .padre_nombre {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   
+}
+.hijo_nombre > input[text] {
+  padding-right: 90px;
 }
 .hijo_nombre {
 display: flex;
 flex-wrap: wrap;
+margin-right: 10px;
 }
 
+.padre_poblacion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+.hijo_poblacion {
+  display: flex;
+flex-wrap: wrap;
+margin-right: 10px;
+}
 
 @media only screen and (orientation: landscape) {
   
