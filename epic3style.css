@@ -775,6 +775,7 @@ a .enviar:link{
     justify-content: space-between;
     flex-wrap:wrap;
    }
+   
 /*    
    .grid_item {
      grid-column-start: 3;
@@ -925,7 +926,36 @@ a .enviar:link{
   text-align:center;
 }
 
+.map {
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ padding: 50px;
+}
+
+.text_map {
+  text-align: center;
+  padding: 50px;
+ margin-top: 25px;
+}
+
+.columnDescription {
+padding:20px;
+
+}
+
+.padre_nombre {
+  display: flex;
+  flex-direction: row;
+  
+}
+.hijo_nombre {
+display: flex;
+flex-wrap: wrap;
+}
+
+
 
 @media only screen and (orientation: landscape) {
   
-}
+} 
