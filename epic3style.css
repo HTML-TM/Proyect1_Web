@@ -289,9 +289,7 @@ font-size: x-large;
 
 }
 
-#cp {
-  width: 90%;
-}
+
 
 .hero-text button {
   border: none;
@@ -955,9 +953,7 @@ padding:20px;
   flex-wrap: wrap;
   
 }
-.hijo_nombre > input[text] {
-  padding-right: 90px;
-}
+
 .hijo_nombre {
 display: flex;
 flex-wrap: wrap;
@@ -976,6 +972,12 @@ flex-wrap: wrap;
 margin-right: 10px;
 }
 
+#cp {
+  width: 90%;
+}
+#tel {
+  width: 100%;
+}
 @media only screen and (orientation: landscape) {
   
 } 
